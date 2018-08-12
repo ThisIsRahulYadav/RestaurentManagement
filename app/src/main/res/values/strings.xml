@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Restaurent Management</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BASE_URL">http://privatenaukari.com/Restaurant/api/</string>
+    <string name="FETCH_ORDER">fetchorderkitchen</string>
+    <string name="FOODMENU_URL">getmenu</string>
+    <string name="TABLE_URL">gettables</string>
+    <string name="RESERVE_TABLE_URL">reservetable</string>
+</resources>

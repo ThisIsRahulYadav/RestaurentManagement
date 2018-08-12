@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginLeft="15dp"
+        android:layout_height="match_parent"
+        android:background="#91e293"/>
+ <RelativeLayout
+     android:layout_width="0dp"
+     android:layout_weight="2"
+     android:layout_marginLeft="10dp"
+     android:layout_height="70dp">
+ <TextView
+     android:id="@+id/item_name"
+     android:layout_width="50dp"
+     android:layout_height="30dp"
+     android:textColor="#f21a1a"
+     android:background="#a9a2a2"/>
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/item_name"
+            android:textColor="#f21a1a"
+            android:background="#a9a2a2"/>
+
+ </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+        <ImageView
+            android:id="@+id/item_image1"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:background="#a6291e"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/item_name1"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:textColor="#f21a1a"
+                android:background="#a9a2a2"/>
+            <TextView
+                android:id="@+id/item_price1"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/item_name1"
+                android:textColor="#f21a1a"
+                android:background="#a9a2a2"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

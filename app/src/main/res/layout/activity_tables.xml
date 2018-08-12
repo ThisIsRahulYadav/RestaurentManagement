@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="restaurentmanagement.goodwill.com.restaurentmanagement.mainClasses.Tables">
+   <LinearLayout
+       android:id="@+id/refresh_layout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="ref"
+        android:layout_marginLeft="15dp"
+        android:background="#31c1b0"
+        />
+
+   </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
